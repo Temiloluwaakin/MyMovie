@@ -2,7 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 nav{
-    background: red;
-    color: yellow;
+    display: flex;
+    background: #ffffff31;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 4px 12px 0px rgba(18, 18, 18, 0.04);
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #131212;
+    padding: 20px 30px;
+}
+nav a:hover{
+    font-weight: 900;
+}
+.left-nav{
+    display: flex;
+    gap: 20px;
+}
+
+.homepage{
+    padding: 20px 30px;
+}
+.homepage h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-bg{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: 300px;
+}
+
+.series{
+    margin-top: 50px;
 }
